@@ -21,9 +21,9 @@ def create_pg_connection(host, database, user, password, port=5432):
 if __name__ == "__main__":
 	# Example credentials (replace with your actual credentials)
 	HOST = "localhost"
-	DATABASE = "your_db"
-	USER = "your_user"
-	PASSWORD = "your_password"
+	DATABASE = "db-ddl"
+	USER = "PinkMonstera"
+	PASSWORD = "MyPasswordAdded"
 	PORT = 5432
 
 	connection = create_pg_connection(HOST, DATABASE, USER, PASSWORD, PORT)
